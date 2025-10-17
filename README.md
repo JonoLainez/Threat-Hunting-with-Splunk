@@ -13,3 +13,9 @@ This documentation is a walkthrough on setting up a simple yet effective Splunk 
   - http://<SplunkServerIP>:8000
 
 <img width="1560" height="629" alt="botsv3lab" src="https://github.com/user-attachments/assets/73ecea2b-920a-4b0c-a419-b24e66889ccc" />
+
+## Scenario:
+The Splunk Boss of the SOC (BOTS) Version 3 is a Capture The Flag (CTF) challenge designed for security professionals to practice threat hunting and incident response using Splunk. The dataset simulates a cyber attack on Frothly, a fictional beer manufacturing company, by a North Korean threat actor group known as Taedonggang (also referred to as a DPRK-linked group). The events unfold on August 20, 2018, primarily between 09:00 and 16:00 UTC, and involve a range of tactics including credential compromise, phishing, remote code execution (RCE), privilege escalation, cryptocurrency mining, data exfiltration, and website defacement. The dataset includes over 2 million events from sources like AWS CloudTrail, Windows Event Logs, Syslog, Microsoft Office 365, Suricata, and more, ingested into Splunk under the index=botsv3
+
+## Investigation:
+- [Investigation-01](https://github.com/JonoLainez/Threat-Hunting-with-Splunk/blob/main/investigation-01.md)
